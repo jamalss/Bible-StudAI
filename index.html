@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bible Stud-AI — Topical Bible Studies for Teaching Leaders</title>
+  <meta name="description" content="Topical Bible studies grounded in KJV/NKJV Scripture, built for small group and teaching leaders — with AI-assisted research and video companions." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============================ NAV ============================ -->
+  <nav class="navbar navbar-expand-md site-nav sticky-top py-3">
+    <div class="container">
+      <a class="brand-mark" href="#top">Bible Stud<span class="spark">·AI</span></a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navMain">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#index">Studies</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#about">How It Works</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#index">
+            <span class="btn-outline-ink d-inline-block mt-2 mt-md-0">Search Topics</span>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================ HERO ============================ -->
+  <header class="hero" id="top">
+    <div class="container">
+      <div class="row align-items-end gy-5">
+        <div class="col-lg-7">
+          <div class="hero-rule"></div>
+          <p class="eyebrow mb-3">A topical study library for teachers</p>
+          <h1>Scripture, worked through for people who have to teach it.</h1>
+          <p class="lede mt-4">
+            Every study here starts from a real question — worry, waiting, seeking God —
+            and answers it from the whole of Scripture, not one isolated verse.
+            Grounded in KJV/NKJV, checked against the Greek and Hebrew, and built to
+            hand straight to a small group.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#index" class="btn-seal">Browse the Studies</a>
+            <a href="#about" class="btn-outline-ink">How Bible Stud-AI Works</a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <blockquote class="verse-plate mb-0">
+            &ldquo;Study to shew thyself approved unto God, a workman that needeth not
+            to be ashamed, rightly dividing the word of truth.&rdquo;
+            <span class="verse-ref">2 Timothy 2:15, KJV</span>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================ INDEX ============================ -->
+  <section class="section-band" id="index">
+    <div class="container">
+      <p class="eyebrow mb-2">The Library</p>
+      <h2 class="section-heading">Studies, A to Z</h2>
+      <p class="section-sub">
+        Topics are listed alphabetically by title and grow over time — jump to a letter,
+        or search by topic, struggle, or keyword.
+      </p>
+
+      <label for="studySearch" class="visually-hidden">Search studies</label>
+      <input
+        type="search"
+        id="studySearch"
+        class="study-search w-100 w-md-50 mt-4"
+        placeholder="Search a topic — e.g. &ldquo;worry,&rdquo; &ldquo;waiting,&rdquo; &ldquo;seek God&rdquo;"
+        autocomplete="off"
+      >
+
+      <!-- Alphabet jump strip -->
+      <nav class="alpha-strip" aria-label="Jump to letter">
+        <span class="letter is-active" data-letter="H">H</span>
+        <span class="letter">I</span>
+        <span class="letter">J</span>
+        <span class="letter">K</span>
+        <span class="letter">L</span>
+        <span class="letter">M</span>
+        <span class="letter">N</span>
+        <span class="letter">O</span>
+        <span class="letter">P</span>
+        <span class="letter">Q</span>
+        <span class="letter">R</span>
+        <span class="letter">S</span>
+        <span class="letter is-active" data-letter="T">T</span>
+        <span class="letter">U</span>
+        <span class="letter">V</span>
+        <span class="letter is-active" data-letter="W">W</span>
+        <span class="letter">X</span>
+        <span class="letter">Y</span>
+        <span class="letter">Z</span>
+        <span class="letter">A</span>
+        <span class="letter">B</span>
+        <span class="letter">C</span>
+        <span class="letter">D</span>
+        <span class="letter">E</span>
+        <span class="letter">F</span>
+        <span class="letter">G</span>
+      </nav>
+
+      <!-- H -->
+      <div class="letter-group" id="letter-H">
+        <div class="study-entry"
+             data-title="How to Overcome Worry"
+             data-thesis="Worry, anxiety, an anchor for a racing mind"
+             data-tags="anxiety fear peace philippians matthew">
+          <span class="letter-marker">H</span>
+          <div class="study-entry-body">
+            <h3 class="study-title"><a href="studies/how-to-overcome-worry.html">How to Overcome Worry</a></h3>
+            <p class="study-thesis">
+              What Scripture actually commands about an anxious mind — and the promise
+              attached to obeying it — from Christ's teaching in Matthew to Paul's
+              instruction from a prison cell.
+            </p>
+            <div class="study-meta">
+              <span class="study-tag">Anxiety</span>
+              <span>Matthew 6 · Philippians 4 · 1 Peter 5</span>
+            </div>
+          </div>
+          <a href="studies/how-to-overcome-worry.html" class="study-arrow" aria-label="Read How to Overcome Worry">&rarr;</a>
+        </div>
+      </div>
+
+      <!-- T -->
+      <div class="letter-group" id="letter-T">
+        <div class="study-entry"
+             data-title="Things That Do Not Profit"
+             data-thesis="Wasted pursuits, empty living, what does not last"
+             data-tags="vanity ecclesiastes idols wealth pursuits">
+          <span class="letter-marker">T</span>
+          <div class="study-entry-body">
+            <h3 class="study-title"><a href="studies/things-that-do-not-profit.html">Things That Do Not Profit</a></h3>
+            <p class="study-thesis">
+              A study on the pursuits Scripture names as empty — riches, idols, and
+              striving after wind — and what it means to spend a life on what actually lasts.
+            </p>
+            <div class="study-meta">
+              <span class="study-tag">Wisdom</span>
+              <span>Ecclesiastes 1–2 · Jeremiah 2 · Isaiah 44</span>
+            </div>
+          </div>
+          <a href="studies/things-that-do-not-profit.html" class="study-arrow" aria-label="Read Things That Do Not Profit">&rarr;</a>
+        </div>
+      </div>
+
+      <!-- W -->
+      <div class="letter-group" id="letter-W">
+        <div class="study-entry"
+             data-title="Waiting on God"
+             data-thesis="Waiting, delay, patience, God's timing"
+             data-tags="patience timing psalm isaiah delay">
+          <span class="letter-marker">W</span>
+          <div class="study-entry-body">
+            <h3 class="study-title"><a href="studies/waiting-on-god.html">Waiting on God</a></h3>
+            <p class="study-thesis">
+              Why waiting is treated as active obedience in Scripture, not passive
+              delay — and how the Psalms and the prophets model it under real pressure.
+            </p>
+            <div class="study-meta">
+              <span class="study-tag">Patience</span>
+              <span>Psalm 27 · Psalm 40 · Isaiah 40</span>
+            </div>
+          </div>
+          <a href="studies/waiting-on-god.html" class="study-arrow" aria-label="Read Waiting on God">&rarr;</a>
+        </div>
+      </div>
+
+      <p id="noResults" class="no-results">No studies match that search yet — try another word, or check back as the library grows.</p>
+
+      <div class="growing-note d-flex align-items-start gap-3">
+        <span class="letter-marker">&hellip;</span>
+        <p class="mb-0">
+          This library is built one study at a time. New topics are added — and slotted
+          alphabetically, not tacked on at the end — as they're finished.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ ABOUT ============================ -->
+  <section class="section-band section-band--deep" id="about">
+    <div class="container">
+      <p class="eyebrow mb-2">How It Works</p>
+      <h2 class="section-heading mb-5">Built for the person standing up to teach.</h2>
+
+      <div class="row gy-5">
+        <div class="col-md-4 about-col reveal">
+          <span class="num">Grounded</span>
+          <h3>Scripture first, KJV/NKJV anchored</h3>
+          <p>
+            Every study opens from a real question, not a proof-text. Claims are checked
+            against the Greek or Hebrew where it changes the meaning, and every
+            interpretive point traces back to the text or a named, reputable source —
+            never invented, never guessed.
+          </p>
+        </div>
+        <div class="col-md-4 about-col reveal">
+          <span class="num">Teachable</span>
+          <h3>Ready to hand to a group</h3>
+          <p>
+            Context, walkthrough, cross-references, application, and discussion
+            questions a leader can use as-is — not a devotional to read alone, but
+            material built to survive being taught out loud.
+          </p>
+        </div>
+        <div class="col-md-4 about-col reveal">
+          <span class="num">AI-Assisted</span>
+          <h3>Research and video, done right</h3>
+          <p>
+            AI helps pull research and draft short video companions for each topic —
+            symbolic, non-literal visuals only, never a depiction of God, Christ, or
+            biblical figures. The study is always the source; the video is a distillation of it.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row gy-4 align-items-start">
+        <div class="col-md-6">
+          <a class="brand-mark text-vellum mb-3 d-inline-block" href="#top" style="color: var(--vellum);">
+            Bible Stud<span class="spark">·AI</span>
+          </a>
+          <p class="footer-fine mb-0">
+            A growing library of topical Bible studies for small group and teaching leaders.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <blockquote class="footer-verse mb-0">
+            &ldquo;Thy word is a lamp unto my feet, and a light unto my path.&rdquo;
+            <span class="verse-ref">Psalm 119:105, KJV</span>
+          </blockquote>
+        </div>
+      </div>
+      <hr class="mt-5 mb-4" style="border-color: rgba(240,233,216,0.15);">
+      <p class="footer-fine mb-0">&copy; 2026 Bible Stud-AI. Studies presented for teaching and personal use.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
